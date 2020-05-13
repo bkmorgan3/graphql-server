@@ -16,7 +16,7 @@
     "express": "4.13.3",
     "express-graphql": "0.5.3",
     "graphql": "0.6.0",
-    "sqlite": "^4.0.7",
+    "sql": "^0.78.0",
     "sqlite3": "^4.2.0"
   }
 }
