@@ -18,7 +18,7 @@ export const NodeInterface = new GraphQLInterfaceType({
   },
   resolveType: source => {
     if (source.__tableName === tables.users.getName()) {
-      return userType
+      return UserType
     }
     return PostType
   }
